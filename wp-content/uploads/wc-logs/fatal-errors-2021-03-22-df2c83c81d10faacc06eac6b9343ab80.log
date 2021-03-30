@@ -1,0 +1,12 @@
+2021-03-22T15:16:33+00:00 CRITICAL Uncaught Error: Call to undefined function dump() in C:\laragon\www\wpecom\wp-content\themes\child_storefront\functions.php:48
+Stack trace:
+#0 C:\laragon\www\wpecom\wp-includes\class-wp-hook.php(292): save_custom_checkout_data_in_order_metadata(26, Array)
+#1 C:\laragon\www\wpecom\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\wpecom\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\laragon\www\wpecom\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(396): do_action('woocommerce_che...', 26, Array)
+#4 C:\laragon\www\wpecom\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1160): WC_Checkout->create_order(Array)
+#5 C:\laragon\www\wpecom\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(465): WC_Checkout->process_checkout()
+#6 C:\laragon\www\wpecom\wp-includes\class-wp-hook.php(292): WC_AJAX::checkout('')
+#7 C:\laragon\www\wpecom\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\laragon\www\wpecom\wp-inc dans C:\laragon\www\wpecom\wp-content\themes\child_storefront\functions.php à la ligne 48
+

@@ -1,0 +1,14 @@
+/*
+ Theme Name:   Theme Storefront child
+ Theme URI:    
+ Description:  Description de mon thème enfant
+ Author:       EAO 
+ Author URI:   
+ Template:     storefront
+ Version:      1.0.0
+*/
+
+
+#payment{
+    background-color: red !important;
+}
